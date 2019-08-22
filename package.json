@@ -1,0 +1,39 @@
+{
+  "name": "blessed-vue-dashboard",
+  "version": "1.0.0",
+  "description": "Gathers statistics from Google Analytics and Nucleus to display usage statistics",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node ./dist/dashboard.js",
+    "dev": "nodemon -I ./dist/dashboard.js"
+  },
+  "author": "Floris Porro @ Stream My Event",
+  "license": "ISC",
+  "devDependencies": {
+    "blessed-vue": "^2.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^7.0.0",
+    "moment": "^2.24.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.3.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "googleapis": "^42.0.0"
+  }
+}
