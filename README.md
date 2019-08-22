@@ -1,6 +1,6 @@
 # Blessed dashboard for Google Analytics and Nucleus
 
-Gathers statistics from Google Analytics and Nucleus to display usage statistics
+Gathers statistics from Google Analytics and Nucleus to display usage statistics.
 
 ## Installation
 
@@ -9,6 +9,11 @@ To install and compile:
 
 To start:
 `npm start`
+
+## Screenshot
+
+![screenshot](https://github.com/florisporro/blessed-vue-dashboard/blob/master/screenshot.png)
+
 
 ## Authentication
 
