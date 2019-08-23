@@ -1,12 +1,14 @@
 <template>
-	<lcd
+	<box
 		:segmentWidth="0.06"
 		:segmentInterval="0.05"
 		:strokeWidth="0.01"
 		:elements="8"
-		:display="display"
+		:content="display"
 		:elementSpacing="0"
 		:elementPadding="0"
+		align="center"
+		valign="center"
 		:width="width"
 		:height="height"
 		:top="top"
@@ -34,6 +36,6 @@ export default {
 				type: "line"
 			}
 		}
-	},
+	}
 }
 </script>

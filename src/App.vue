@@ -10,52 +10,52 @@
 		/>
 		<Statistic
 			label="Active Users"
-			:display="activeUsersToday"
+			:display="activeUsersToday.toString()"
 			width="20%"
-			:height="10"
+			:height="5"
 			:top="14"
 		/>
 		<Statistic
 			label="New Users"
-			:display="newUsersToday"
+			:display="newUsersToday.toString()"
 			width="20%"
-			:height="10"
-			:top="24"
+			:height="5"
+			:top="19"
 		/>
 		<Statistic
 			label="Downloads"
-			:display="downloadsToday"
+			:display="downloadsToday.toString()"
 			width="20%"
-			:height="10"
-			:top="34"
+			:height="5"
+			:top="24"
 		/>
 		<Statistic
 			label="Website Sessions"
-			:display="websiteVisitorsToday"
+			:display="websiteVisitorsToday.toString()"
 			width="20%"
-			:height="10"
-			:top="44"
+			:height="5"
+			:top="29"
 		/>
 		<Statistic
 			label="Organic (SEO) Sessions"
-			:display="organicWebsiteVisitorsToday"
+			:display="organicWebsiteVisitorsToday.toString()"
 			width="20%"
-			:height="10"
-			:top="54"
+			:height="5"
+			:top="34"
 		/>
 		<Statistic
 			label="Errors"
-			:display="newUsersToday"
+			:display="newUsersToday.toString()"
 			width="20%"
-			:height="10"
-			:top="64"
+			:height="5"
+			:top="39"
 			:style="{ bg: 'red' }"
 		/>
 
 		<!-- CENTER -->
 		<Statistic
 			label="Time"
-			:display="time"
+			:display="time.toString()"
 			width="25%"
 			:height="10"
 			:top="0"
@@ -63,7 +63,7 @@
 		/>
 		<Statistic
 			label="Active Users 30 days"
-			:display="activeUsers30Days"
+			:display="activeUsers30Days.toString()"
 			width="25%"
 			:height="10"
 			:top="10"
@@ -127,51 +127,51 @@
 		/>
 		<Statistic
 			label="Active Users"
-			:display="activeUsers30Days"
+			:display="activeUsers30Days.toString()"
 			width="20%"
 			:right="0"
-			:height="10"
+			:height="5"
 			:top="14"
 		/>
 		<Statistic
 			label="New Users"
-			:display="newUsers30Days"
+			:display="newUsers30Days.toString()"
 			width="20%"
 			:right="0"
-			:height="10"
-			:top="24"
+			:height="5"
+			:top="19"
 		/>
 		<Statistic
 			label="Downloads"
-			:display="downloads30Days"
+			:display="downloads30Days.toString()"
 			width="20%"
 			:right="0"
-			:height="10"
-			:top="34"
+			:height="5"
+			:top="24"
 		/>
 		<Statistic
 			label="Website Sessions"
-			:display="websiteVisitors30Days"
+			:display="websiteVisitors30Days.toString()"
 			width="20%"
 			:right="0"
-			:height="10"
-			:top="44"
+			:height="5"
+			:top="29"
 		/>
 		<Statistic
 			label="Organic (SEO) Sessions"
-			:display="organicWebsiteVisitors30Days"
+			:display="organicWebsiteVisitors30Days.toString()"
 			width="20%"
 			:right="0"
-			:height="10"
-			:top="54"
+			:height="5"
+			:top="34"
 		/>
 		<Statistic
 			label="Errors"
-			:display="newUsers30Days"
+			:display="newUsers30Days.toString()"
 			width="20%"
 			:right="0"
-			:height="10"
-			:top="64"
+			:height="5"
+			:top="39"
 			:style="{ bg: 'red' }"
 		/>
 	</screen>
