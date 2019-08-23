@@ -246,8 +246,8 @@ export default {
 					this.refreshing = false
 					this.refreshCountdown = 3600
 				})
-				.catch(() => {
-					this.error = true
+				.catch(error => {
+					this.error = error
 					this.refreshing = false
 					this.refreshCountdown = 3600
 				})
