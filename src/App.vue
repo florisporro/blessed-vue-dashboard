@@ -93,7 +93,7 @@
 			:content="refreshCountdown.toString()"
 		/>
 		<box
-			label="Refresh error"
+			label="Refreshing"
 			width="25%"
 			left="center"
 			align="center"
@@ -102,19 +102,19 @@
 			:top="33"
 			:style="boxStyle"
 			:border="borderStyle"
-			:content="error.toString()"
+			:content="refreshing.toString()"
 		/>
 		<box
-			label="Refreshing"
+			label="Refresh error"
 			width="25%"
 			left="center"
 			align="center"
 			valign="center"
-			:height="5"
+			:height="15"
 			:top="38"
 			:style="boxStyle"
 			:border="borderStyle"
-			:content="refreshing.toString()"
+			:content="error ? error.stack : 'none'"
 		/>
 
 		<!-- RIGHT -->
